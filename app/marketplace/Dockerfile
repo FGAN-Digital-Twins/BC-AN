@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:19.0.1
 ADD . /marketplace/
 WORKDIR /marketplace
 RUN cd /marketplace
